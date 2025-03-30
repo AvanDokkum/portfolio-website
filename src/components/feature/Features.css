@@ -1,0 +1,16 @@
+/* Features Section */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive */
+  gap: 2rem;
+  /* width: 90%; */
+  /* max-width: 1200px; */
+  margin: 2rem;
+}
+
+.feature-card {
+  background: lightgray;
+  padding: min(3rem, 10%);
+  font-size: 1.2rem;
+  border-radius: 8px;
+}

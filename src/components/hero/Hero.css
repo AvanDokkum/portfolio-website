@@ -1,0 +1,25 @@
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 66vh; /* Ensures it takes at least 50% of the screen */
+  width: 100%;
+  position: relative;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Hero Image (Fullscreen Scaling) */
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fully covers the container */
+  z-index: -1; /* Moves behind the text */
+}

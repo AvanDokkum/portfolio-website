@@ -1,0 +1,8 @@
+/* Header */
+.header {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  background: #333;
+  color: white;
+}
